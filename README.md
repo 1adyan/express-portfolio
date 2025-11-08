@@ -67,7 +67,7 @@ All code follows W3C web standards
 - EJS: https://ejs.co/
 
 ## Live Site
-[View Live Site](https://YOUR-RENDER-URL.onrender.com)
+[View Live Site](https://express-portfolio-u9wc.onrender.com
 
 ## GitHub Repository
 [GitHub Repository](https://github.com/1adyan/express-portfolio)
