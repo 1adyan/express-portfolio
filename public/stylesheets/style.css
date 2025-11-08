@@ -1,8 +1,61 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
 }
 
-a {
-  color: #00B7FF;
+/* header from previous assignment 1 */
+.navbar {
+  background: linear-gradient(to bottom, #2C3E50 0%, #34495E 100%);
+}
+
+.project-card {
+  background: linear-gradient(45deg, #ECF0F1 0%, #3498DB 100%);
+  border: 2px solid #34495E;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  min-height: 180px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #3498DB;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #ECF0F1;
+}
+
+
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 0;
+  }
+  
+  .project-card {
+    margin: 10px 0;
+  }
 }
